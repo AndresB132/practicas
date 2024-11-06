@@ -1,0 +1,26 @@
+/* Estilos generales del cuerpo */
+body {
+    display: flex; /* Usamos flexbox para centrar el contenido */
+    flex-direction: column; /* Apila los elementos verticalmente */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 100vh; /* Altura completa de la ventana */
+    margin: 0; /* Eliminamos márgenes por defecto */
+    background-color: #f0f0f0; /* Color de fondo suave */
+}
+
+/* Animación para el título */
+/*AQUI AGREGA UNA ANIMACION PARA EL TITULO */
+
+/* Estilos del título */
+h1 {
+    font-size: 24px; /* Tamaño de fuente del título */
+    margin-bottom: 10px; /* Margen inferior para separar del párrafo */
+    animation: slideInFade 1s ease-out; /* Aplicamos la animación */
+}
+
+/* Estilos del párrafo */
+p {
+    font-size: 16px; /* Tamaño de fuente del párrafo */
+    text-align: center; /* Centra el texto */
+}
